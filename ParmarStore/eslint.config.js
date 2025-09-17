@@ -13,13 +13,6 @@ export default defineConfig([
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
     ],
-     screens: {
-      'mobile': '768px', // Mobile breakpoint
-      'tab': '998px',    // Tablet breakpoint
-      'lg': '1024px',    // Default large
-      'xl': '1280px',
-      '2xl': '1536px',
-    },
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
