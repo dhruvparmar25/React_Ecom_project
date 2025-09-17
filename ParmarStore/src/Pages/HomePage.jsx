@@ -1,8 +1,14 @@
 import React from 'react'
+import HeroSection from '../components/HeroSection'
 
 function HomePage() {
+  const data={
+    name:"thapa store"
+  }
   return (
-    <div>HomePage</div>
+    <div className='p-2'> 
+      <HeroSection mydata={data}/>
+    </div>
   )
 }
 

@@ -11,7 +11,7 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <div>
+    <div >
     <BrowserRouter>
     <Header className='bg-zinc-800 text-white p-2' />
     <Routes>

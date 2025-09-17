@@ -4,9 +4,9 @@ import Nav from './Nav'
 
 function Header() {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center justify-between bg-black text-white p-4'>
       <NavLink >
-        <Link to={'/'} >Dhruv</Link>
+        Dhruv
       </NavLink>
       <Nav />
 
