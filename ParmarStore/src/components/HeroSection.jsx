@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Banner from "../assets/banner.jpg";
-// add comment
+
 function HeroSection({ mydata }) {
   return (
     <div className="w-full bg-white">
